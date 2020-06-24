@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@700&display=swap');
+
+/* Basic style remover */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Default Style for site */
+html, body {
+	font-style: normal;
+	font-size: 15px;
+	line-height: 26px;
+	font-family: "Open Sans", Helvetica, Verdana, 'Gothic A1', sans-serif;
+	color: #8f9194;
+}
+ 
+.row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.container {
+	width: 70%;
+	margin:auto;
+}
+
+.red {
+	background-color: red;
+}
+.text-0 {
+	color: #000;
+}
+
+.green {
+	background-color: green;
+}
+
+.font-weight-bolder {
+	font-weight: bolder;
+}
+
+.center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+} 
+
+.text-right {
+	text-align: right;
+}
+
+.open-sans {
+	font-family: 'Open sans';
+	font-weight: bolder;
+	font-size: 48px;
+}
+
+a {
+	text-decoration: none;
+	color: aliceblue;
+	font-family: 'Quicksand';
+	
+}
+.btn-gradient {
+	padding: 10px 20px;
+	margin: 10px 10px;
+	background: linear-gradient(135deg, #ff7676 0%, #f54ea2 100%);
+	border-radius: 100px;
+	
+}
+
+.block {
+	display: block;
+}
+.responsive-image {
+	width: 100%;
+	height: auto;
+}
+/* For desktop: */
+/*This chunk of code simply copied from w3schools*/
+.col-1 {width: 8.33%; }
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/*Section1*/
+header {
+	height: 100vh;
+	background-color: #4BDBDB;
+}
+header .larger-text {
+	font-size: 100px;
+	line-height: 1;
+}
+.quicksand {
+	font-family: 'Quicksand';
+}
+
+.sub-header {
+	font-size: 70px;
+	line-height: 0.9
+}
+
+.p-rel {
+	position: relative;
+}
+
+.p-abs {
+	position: absolute;
+}
+
+
+
+/* Section -2 */
+.light-grey {
+	background-color: #f4f4f4;
+}
+
+.large-text {
+	font-size: 40px;
+	line-height: 1.3;
+}
+
+.light-blue-head {
+	font-family:'Open Sans';
+	font-weight:600;
+	color:#4bdbdb;
+}
+
+/* Section -3*/
+ul {
+	list-style: none;
+}
+
+ul li .fa {
+	display: block;
+}
+
+.deep-pink {
+	color: deeppink;
+}
+
+
+.make-clean {
+	text-align: justify;
+	padding: 0 10px;
+	margin: 10px 20px;
+}
+
+/* Section -4*/
+
+
+/*Section - 6*/
+.height {
+	width: 100%;
+	height: 30vh;
+	background: url('https://visn.it/wp-content/uploads/2019/09/device-banner-1.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*sction - 7*/
+.card {
+	margin: 20px;
+	padding: 20px;
+	background-color: #eaeaea;
+	border-radius: 10px;
+}
+
+/* Section-8*/
+.little-large {
+	font-weight: bolder;
+	font-size: 30px;
+	text-align: center;
+}
+
+/*Section - 8 */
+.bg-visn {
+	background: rgb(75, 219, 219);
+}
+.text-white {
+	color: #fff;
+}
+
+.text-light-blue {
+	color: rgba(32, 158, 221, 0.81);
+}
+
+/*Section 9*/
+.style-the-input {
+	display: block;
+	width: 80%;
+	height: 30px;
+	margin: 10px auto;
+	padding: 4px 10px; 
+	border: 1px solid #767676;
+	border-radius: 5px;
+	font-weight: bolder;
+	color: #c6c4c4;
+}
+
+input[type='submit'] {
+	border-radius: 10px;
+	border: 1px solid #c3b7b7;
+	color: #000;
+}
+
+textarea {
+	resize: vertical;
+}
+
+/* Footer */
+footer {
+	display: block;
+	background-color: #000;
+}
+
+.adjust-img {
+	padding: 20px 20px;
+	position: relative;
+	left: 45%;
+}
+
+.footer-2 {
+	background-color: #acaaaa;
+	margin-bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
+
+.footer-2 p {
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+	padding: 0;
+}
+
+.text-dark {
+	color: #696969;
+}
+
+
+
+.rounded-border {
+	border: 1px solid #5d5b5b;
+	border-radius: 50%;
+}
+
+.padding {
+	padding: 4px;
+}
+
+
+@media (max-width: 1500px) {
+	.sm-none {
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 950px) {
+	.image-section {
+		display: none;
+	}
+	.row {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	
+	.container {
+		width: 99%;
+	}
+	
+	.responsive-image {
+		width: 60%;
+		margin: 0 20%;
+	}
+	
+	.sm-none {
+		display: none;
+	}
+	
+	.adjust-img {
+	left: 40%;
+}
+	
+  /* For mobile phones: */
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    width: 100%;
+  }
+	
+}
+/* For any Paragraph content */
+p {
+	padding: 10px 20px;
+	margin: 20px 2px;
+}
+h1, h2, h3, h4,h5, h6 {
+	margin: 10px 9px;
+	padding: 10px 9px;
+}
